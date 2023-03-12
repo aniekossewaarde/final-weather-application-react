@@ -1,6 +1,12 @@
+header {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 footer {
   opacity: 0.6;
   font-size: 13px;
+  margin-top: 10px;
 }
 
 footer a {
