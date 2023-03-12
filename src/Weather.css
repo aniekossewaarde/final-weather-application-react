@@ -13,12 +13,12 @@ body {
 
 .Weather form .form-control {
     border-radius: 12px;
-    border: none;
+    border: 0.5px solid #606470;
 }
 
 .Weather form .search-button {
     border-radius: 12px;
-    border: none;
+    border: 0.5px solid #606470;
     line-height: 33px;
     background: white;
     transition: all 150ms ease-in-out;
