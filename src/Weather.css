@@ -1,0 +1,16 @@
+.Weather {
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    border: 1px solid #385170;
+    border-radius: 20px;
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.current-location h1 {
+   margin-bottom: 0px; 
+}
+
+.current-location ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
