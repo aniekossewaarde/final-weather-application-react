@@ -23,6 +23,7 @@ body {
     background: white;
     transition: all 150ms ease-in-out;
     color: #606470;
+    
 }
 
 .Weather form .search-button:hover {
@@ -74,4 +75,20 @@ color: whitesmoke;
 
 .Weather .current-location .information {
    margin: 10px 20px;
+}
+
+@media (max-width: 767px) {
+   
+    .Weather form .search-button { 
+font-size: 14px;   
+ }
+
+ .Weather .current-location .information {
+font-size: 15px;
+ }
+
+ .forecast-temp {
+    font-size: 12px;
+ }
+
 }
