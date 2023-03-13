@@ -12,9 +12,9 @@ export default function WeatherInfo(props) {
                     <li>Last updated: <FormattedDate date={props.data.date} /></li>
                     <li className="text-capitalize">{props.data.description}</li>
                 </ul>
-            <div className="row">
+            <div className="row middle-section">
                 <div className="col-6">
-                    <WeatherIcon code={props.data.icon} className="icon-image" />
+                    <WeatherIcon code={props.data.icon} size={54} className="icon-image" />
                     <WeatherTemperature celsius={props.data.temperature} />
                    
                 </div>

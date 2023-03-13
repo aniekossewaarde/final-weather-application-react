@@ -39,9 +39,11 @@ color: whitesmoke;
    line-height: 29px;
 }
 
+
+
 .Weather .current-location canvas {
     margin-right: 7px;
-    margin-top: 15px;
+    margin-top: 23px;
     position: relative;
     top: -14px;
     opacity: 0.9;
@@ -71,5 +73,5 @@ color: whitesmoke;
 }
 
 .Weather .current-location .information {
-   margin: 0px 20px;
+   margin: 10px 20px;
 }
